@@ -1,0 +1,15 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/ExceptionTest.java",
+      "testCases": [
+        {
+          "methodName": "exceptionMustThrowTest",
+          "label": "Verify mustThrow() throws an exception",
+          "description": "Checks that calling ec.mustThrow() results in an exception being thrown using Assert.assertThrows."
+        }
+      ]
+    }
+  ]
+}
